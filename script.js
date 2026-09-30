@@ -3,7 +3,8 @@
   غيّر قيمة N8N_WEBHOOK_URL فقط إلى رابط الـ Webhook الخاص بالـ workflow.
 */
 const CONFIG = {
-  N8N_WEBHOOK_URL: "https://source-speaking-scope-interact.trycloudflare.com/webhook/7eda8b2f-0950-4839-afe7-3d77534030d5/chat",
+  N8N_WEBHOOK_URL: "https://source-speaking-scope-interact.trycloudflare.com/webhook/b570bc23-53ae-453e-bccf-6142c8ce1b38/chat",
+                                                                            
   // الحقل الرئيسي الذي يقرأه n8n من Body
   MESSAGE_FIELD: "chatInput"
 };
@@ -230,7 +231,7 @@ async function sendToN8n(userText) {
   });
 
   const raw = await response.text();
-
+  
   let data = raw;
   try {
     data = JSON.parse(raw);
