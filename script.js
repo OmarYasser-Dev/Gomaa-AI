@@ -3,7 +3,7 @@
   غيّر قيمة N8N_WEBHOOK_URL فقط إلى رابط الـ Webhook الخاص بالـ workflow.
 */
 const CONFIG = {
-  N8N_WEBHOOK_URL: "https://brooklyn-base-fame-played.trycloudflare.com/webhook/7eda8b2f-0950-4839-afe7-3d77534030d5/chat",
+  N8N_WEBHOOK_URL: "https://source-speaking-scope-interact.trycloudflare.com/webhook/7eda8b2f-0950-4839-afe7-3d77534030d5/chat",
   // الحقل الرئيسي الذي يقرأه n8n من Body
   MESSAGE_FIELD: "chatInput"
 };
